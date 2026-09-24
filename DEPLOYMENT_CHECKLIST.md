@@ -1,0 +1,22 @@
+# Public V1 Deployment Checklist
+
+- [ ] Node 20+
+- [ ] `npm install`
+- [ ] `npm run check`
+- [ ] `npm run build`
+- [ ] Homepage desktop QA
+- [ ] Homepage mobile QA
+- [ ] EN QA
+- [ ] 中文 QA
+- [ ] VeFin scroll/sticky QA
+- [ ] All internal public routes QA
+- [ ] AtlasAnalyse external link QA
+- [ ] No account/sign-in UI
+- [ ] Unknown route 404 QA
+- [ ] GitHub remote verified
+- [ ] Commit to `main`
+- [ ] Push to `linyiji/xiangfengxing-web`
+- [ ] Vercel Production deploy READY
+- [ ] Public Vercel URL works
+- [ ] `atlasanalyse.com` domain connected, or exact DNS action documented
+- [ ] `www` redirect connected, or exact DNS action documented

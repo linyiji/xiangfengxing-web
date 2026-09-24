@@ -1,0 +1,14 @@
+node_modules
+dist
+.vite
+.vercel
+*.local
+.DS_Store
+.env
+.env.*
+!.env.example
+_package_extract/
+*.tar.gz
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
