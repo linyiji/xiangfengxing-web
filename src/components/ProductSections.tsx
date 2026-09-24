@@ -18,7 +18,7 @@ export function ProductSections() {
 
     <article className="product-story brand-story" id="brandip">
       <Reveal variant="title" className="product-copy"><StatusBadge status="capability" /><h3>{copy.brand.title}</h3><div className="product-formal">{copy.brand.formal}</div><p>{copy.brand.description}</p><Link className="text-link" to="/products/brand-ip">{copy.brand.explore} →</Link></Reveal>
-      <div className="brand-art"><Reveal variant="detail" className="brand-config">{copy.brand.config.map(([label,value]) => <div className="config-row" key={label}><b>{label}</b><span>{value}</span></div>)}</Reveal><Reveal variant="ui" className="brand-output"><span className="shape a"/><span className="shape b"/><span className="shape c"/><div><small>{copy.brand.outputLabel}</small><strong>{copy.brand.output}</strong></div></Reveal></div>
+      <div className="brand-art"><Reveal variant="detail" className="brand-config">{copy.brand.capabilities.map((label, index) => <div className="config-row" key={label}><b>0{index + 1}</b><span>{label}</span></div>)}</Reveal><Reveal variant="ui" className="brand-output"><span className="shape a"/><span className="shape b"/><span className="shape c"/><div><small>{copy.brand.outputLabel}</small><strong>{copy.brand.output}</strong></div></Reveal></div>
     </article>
   </div>
 }
