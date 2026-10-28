@@ -14,7 +14,7 @@ import { Footer } from '../components/Footer'
 export function HomePage() {
   const { copy, locale } = useLocale()
   const location = useLocation()
-  useDocumentMeta(locale === 'en' ? 'Xiangfengxing AI — Products for Real-World Work' : '向风行 AI — 面向真实工作的 AI 产品', locale === 'en' ? 'Xiangfengxing AI builds product-first AI systems for real-world work.' : '向风行 AI 构建真正进入真实工作流的 AI 产品。')
+  useDocumentMeta(locale === 'en' ? 'Xiangfengxing AI — Products for Real-World Work' : '向风行 AI — 面向真实工作的 AI 产品', locale === 'en' ? 'Xiangfengxing AI builds products for real work. Explore VeFin transaction-verification PoC goals, implemented foundations and the VeFin Voice module.' : '向风行 AI 构建面向真实工作的产品。了解 VeFin 交易验证 PoC 目标、已实现基础与 VeFin Voice 语音沟通模块。')
 
   useEffect(() => {
     const id = (location.state as { scrollTo?:string } | null)?.scrollTo

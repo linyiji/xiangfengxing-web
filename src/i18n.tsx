@@ -13,9 +13,9 @@ const en = {
     tip: 'Move to translate · EN / 中文',
   },
   peeks: {
-    vefin: 'Verifiable Financial System · Product / API / MCP',
+    vefin: 'Transaction verification · PoC direction',
     atlas: 'AI compliance testing · Mainland China',
-    voice: 'Voice AI · Product / API',
+    voice: 'VeFin module · Bounded acceptance',
     brand: 'Callable capability · Use / API',
   },
   products: {
@@ -25,39 +25,94 @@ const en = {
     statuses: { featured: 'Featured Product', live: 'Live · Independent', preview: 'Preview', capability: 'Product Capability' },
   },
   vefin: {
-    formal: 'Verifiable Financial System',
-    description: 'A professional financial research workflow from question to evidence, review and report.',
-    explore: 'Explore product',
-    steps: [
-      { short: 'Question', title: 'Define the question.', body: 'Clarify the research goal before the system starts searching and analysing.' },
-      { short: 'Evidence', title: 'Build the evidence.', body: 'Research, retrieve and keep evidence linked to the claims it supports.' },
-      { short: 'Review', title: 'Review the reasoning.', body: 'Surface conflicts, assumptions and items that still require professional judgement.' },
-      { short: 'Report', title: 'Deliver the report.', body: 'Turn the work into a professional output that remains traceable to the evidence.' },
+    "formal": "Transaction verification · Current business direction",
+    "description": "VeFin is moving toward evidence-based transaction verification. Existing research and review foundations support a scoped PoC; transaction reconciliation and voice-led evidence collection remain integration goals.",
+    "explore": "Explore VeFin and its scope",
+    "steps": [
+        {
+            "short": "Scope",
+            "title": "Define the verification task.",
+            "body": "PoC target: agree on the transaction, records, verification rules and authority before processing."
+        },
+        {
+            "short": "Evidence",
+            "title": "Connect records to evidence.",
+            "body": "Implemented foundation: evidence handling and supported deterministic financial calculations in the research system. Transaction-record ingestion is a PoC target."
+        },
+        {
+            "short": "Review",
+            "title": "Investigate discrepancies.",
+            "body": "PoC target: compare records, explain differences and request missing evidence. VeFin Voice is a candidate communication module; the business bridge is not accepted."
+        },
+        {
+            "short": "Result",
+            "title": "Return a bounded result.",
+            "body": "PoC target: deliver verification findings, unresolved items and traceable records. Institutional integration and production deployment are future work."
+        }
     ],
-    workspace: {
-      research: 'Research', evidence: 'Evidence', review: 'Review', report: 'Report',
-      intentLabel: 'Research intent', intentTitle: 'Analyze NVIDIA fundamentals',
-      focus: 'Focus', selected: 'Selected',
-      intentRows: ['Growth sustainability', 'Margin outlook', 'Valuation', 'Full fundamental review'],
-      evidenceLabel: 'Evidence workspace', evidenceTitle: '23 linked evidence items',
-      evidenceBoxes: [
-        ['Primary source', 'Revenue growth remains strong.'],
-        ['Review point', 'Margin assumptions conflict.'],
-        ['Scenario', 'Valuation sensitivity retained.'],
-        ['Traceability', 'Claims stay linked to evidence.'],
-      ],
-      reviewLabel: 'Professional review', reviewTitle: 'Resolve before reporting',
-      reviewBoxes: [
-        ['Conflict', 'Margin assumption differs across sources.'],
-        ['Human review', 'Confirm treatment before final output.'],
-        ['Evidence', '3 primary sources linked.'],
-        ['Status', '1 item remains open.'],
-      ],
-      reportLabel: 'Final output', reportTitle: 'NVDA Fundamental Report',
-      viewTitle: 'Investment view', viewBody: 'Growth remains supported by demand and product-cycle evidence, while margin assumptions require tighter scenario handling.',
-      traceTitle: 'Evidence', traceBody: 'Major claims remain linked to source material and review decisions.',
-    },
-  },
+    "workspace": {
+        "research": "Scope",
+        "evidence": "Evidence",
+        "review": "Review",
+        "report": "Result",
+        "intentLabel": "Illustrative PoC task",
+        "intentTitle": "Verify a transaction record",
+        "focus": "To define",
+        "selected": "Target scope",
+        "intentRows": [
+            "Transaction and counterparties",
+            "Records and permissions",
+            "Verification rules",
+            "Evidence and discrepancy review"
+        ],
+        "evidenceLabel": "Target evidence workspace",
+        "evidenceTitle": "Bring records into context",
+        "evidenceBoxes": [
+            [
+                "Records",
+                "Authorized transaction records"
+            ],
+            [
+                "References",
+                "Applicable verification rules"
+            ],
+            [
+                "Gaps",
+                "Missing evidence stays visible"
+            ],
+            [
+                "Provenance",
+                "Source and execution records"
+            ]
+        ],
+        "reviewLabel": "Target review flow",
+        "reviewTitle": "Resolve or retain discrepancies",
+        "reviewBoxes": [
+            [
+                "Compare",
+                "Check agreed fields and rules"
+            ],
+            [
+                "Communicate",
+                "Request evidence with permission"
+            ],
+            [
+                "Boundary",
+                "No business bridge accepted yet"
+            ],
+            [
+                "Status",
+                "Unresolved items remain open"
+            ]
+        ],
+        "reportLabel": "Illustrative output",
+        "reportTitle": "Verification result and limits",
+        "viewTitle": "Bounded conclusion",
+        "viewBody": "Record findings against supplied evidence and agreed rules; retain unknowns and items requiring human review.",
+        "traceTitle": "PoC target · Not live data",
+        "traceBody": "This interface illustrates the intended workflow. It is not a product screenshot or a measured transaction-verification result."
+    }
+},
   atlas: {
     status: 'Independent Product / Mainland China', title: 'AtlasAnalyse', formal: 'AI Compliance Testing & Evaluation Platform',
     description: 'Structured testing, execution evidence and traceable evaluation, kept independent for Mainland China deployment and compliance.',
@@ -66,11 +121,28 @@ const en = {
     run: 'Evaluation Run', rows: [['TEST_CASE_001','Safety mapping'],['TEST_CASE_002','Oracle check'],['TEST_CASE_003','Evidence link'],['TEST_CASE_004','Regression']], pass: 'PASS',
   },
   voice: {
-    status: 'Preview / Product · API', title: 'Cantonese Voice', formal: 'Voice AI for real Cantonese conversations',
-    description: 'Continuous business communication built around context retention, grounded knowledge and task completion.', explore: 'Explore Voice',
-    live: 'LIVE CONVERSATION', phrase: '「我想問返份保單嘅保障範圍……」',
-    points: [['Context','Retained across turns'],['Knowledge','Grounded in relevant sources'],['Completion','Moves toward a business outcome']],
-  },
+    "status": "VeFin module · Bounded acceptance",
+    "title": "VeFin Voice",
+    "formal": "Voice communication within VeFin",
+    "description": "A stateful communication module connecting speech, task context, registered knowledge and controlled dialogue. Locally accepted in a bounded Cantonese consultation; transaction-workflow integration remains a goal.",
+    "explore": "Explore VeFin Voice",
+    "live": "ILLUSTRATIVE CONVERSATION",
+    "phrase": "“How can I change my debit account?”",
+    "points": [
+        [
+            "Module",
+            "Communication within VeFin"
+        ],
+        [
+            "Evidence",
+            "Bounded local R8 acceptance"
+        ],
+        [
+            "Boundary",
+            "No public voice trial or hosted API"
+        ]
+    ]
+},
   brand: {
     status: 'Product Capability / Preview', title: 'Brand / IP', formal: 'Interactive AI experiences for brands and IP',
     description: 'Configure, call and embed an interactive experience rather than treating every collaboration as a one-off build.', explore: 'Explore capability',
@@ -78,14 +150,27 @@ const en = {
     outputLabel: 'Generated experience', output: 'Brand identity becomes an interactive product surface.',
   },
   ways: {
-    eyebrow: 'Ways to use / Xiangfengxing Platform', title: 'Use products your way.',
-    description: 'The product experience comes first. API and MCP are additional delivery surfaces where they genuinely help.',
-    items: [
-      ['Product','Use the complete workflow as it was designed.','Explore products'],
-      ['API','Bring selected capabilities into your own systems.','Explore APIs'],
-      ['MCP','Let compatible agents call selected capabilities directly.','Explore MCP'],
-    ],
-  },
+    "eyebrow": "Ways to explore / Xiangfengxing",
+    "title": "Explore the product and its evidence.",
+    "description": "Read the current scope and source documentation, or contact us for a facilitated demonstration.",
+    "items": [
+        [
+            "Product",
+            "Review implemented foundations, PoC targets and current limits.",
+            "Explore products"
+        ],
+        [
+            "API documentation",
+            "Read the actual backend contract. A hosted public API or SDK is not offered here.",
+            "Read API scope"
+        ],
+        [
+            "MCP direction",
+            "Public MCP access is not available. Review source and integration boundaries.",
+            "Read integration scope"
+        ]
+    ]
+},
   work: {
     eyebrow: 'Proof / Selected Work', title: 'Work beyond the product line.',
     description: 'Context-specific builds for events, partners or one-off problems. When a capability becomes repeatable, it can graduate into Products.',
@@ -103,12 +188,12 @@ const en = {
   },
   common: { preparing: 'Preparing', back: 'Back to Xiangfengxing', comingNext: 'Coming next', previewOnly: 'Preview only', notLive: 'Not live' },
   routes: {
-    vefin: { kicker:'Product / Finance', title:'VeFin', formal:'Verifiable Financial System', copy:'Professional financial research from question to evidence, review and report.', pending:'The full VeFin product experience is being connected.', pendingCopy:'This route is reserved for the complete VeFin product page. Product, API and MCP access will open here as they become ready.', features:['Research workspace','Evidence graph','Professional report'], meta:['Product','API','MCP'] },
-    voice: { kicker:'Product / Voice AI', title:'Cantonese Voice', formal:'Voice AI for real Cantonese conversations', copy:'Continuous business communication built around context retention, grounded knowledge and task completion.', pending:'The Cantonese Voice product page is being connected.', pendingCopy:'The complete voice product and API experience will open here when the product surface is ready.', features:['Real-time conversation','Context retention','Business workflows'], meta:['Product','API'] },
+
+
     brand: { kicker:'Product Capability', title:'Brand / IP', formal:'Interactive AI experiences for brands and IP', copy:'Configure, call and embed an interactive experience instead of treating every collaboration as a one-off build.', pending:'The callable Brand / IP experience is being connected.', pendingCopy:'This route will become the complete productized capability page, including configuration, usage and API entry points.', features:['Configuration','Interactive experience','Use / API'], meta:['Use','API'] },
-    developers: { kicker:'Developers', title:'Build with Xiangfengxing', formal:'Developer surfaces for selected capabilities', copy:'Use complete products where they fit, or connect selected capabilities through APIs and MCP.', pending:'Developer access is being connected.', pendingCopy:'Documentation, capability discovery and developer tools will open here as the interfaces stabilize.', features:['Capability discovery','API and MCP previews','Developer documentation'], meta:['API','MCP','Documentation'] },
-    api: { kicker:'Developers / API', title:'API', formal:'Integrate selected Xiangfengxing capabilities', copy:'A developer-facing surface for bringing professional product capabilities into your own systems.', pending:'API access and documentation are being connected.', pendingCopy:'The code shown above is an illustrative preview only. Live endpoints and documentation are not open yet.', features:['Capability endpoints','Usage documentation','Integration guides'], meta:['Preview','Documentation','Integration'] },
-    mcp: { kicker:'Developers / MCP', title:'MCP', formal:'Connect compatible agents to professional capabilities', copy:'A connection layer for exposing selected Xiangfengxing capabilities to compatible agent environments.', pending:'MCP access is being connected.', pendingCopy:'Capability discovery and MCP connection details will open here when the interface is ready.', features:['Discover','Connect','Call & verify'], meta:['Discover','Connect','Call','Verify'] },
+
+
+
     work: { kicker:'Selected Work', title:'AI × Web3', formal:'Built for a specific event and product context', copy:'A context-specific build presented in an OKX-related setting. The complete case study will live here.', pending:'The full project story will be published here.', pendingCopy:'Context, approach, product decisions and outcomes will be added when the case study is ready.', features:['Context','Approach','Outcome'], meta:['OKX context','2026','Case study'] },
   },
   routeVisual: {
@@ -131,31 +216,101 @@ const zh = {
     altSub: 'Product-first AI systems built around real workflows, interaction and delivery.',
     tip: '移动查看另一语言 · 中文 / EN',
   },
-  peeks: { vefin: '可验证金融系统 · Product / API / MCP', atlas: 'AI 合规测试 · 中国大陆', voice: '粤语 Voice AI · Product / API', brand: '产品化能力 · Use / API' },
+  peeks: { vefin: '交易验证 · PoC 方向', atlas: 'AI 合规测试 · 中国大陆', voice: 'VeFin 模块 · 限定验收', brand: '产品化能力 · Use / API' },
   products: {
     eyebrow: '01 / 产品', title1: '产品形态由', title2: '真实工作决定。',
     intro: '同一家公司，不同产品形态。只有在真正改善产品体验时，我们才共享平台能力。',
     statuses: { featured: '核心产品', live: '已上线 · 独立产品', preview: '预览中', capability: '产品化能力' },
   },
   vefin: {
-    formal: '可验证金融系统', description: '从研究问题到证据、复核与专业报告的一套金融研究工作流。', explore: '查看产品',
-    steps: [
-      { short: '问题', title: '明确研究问题。', body: '在开始搜索和分析之前，先明确真正需要回答的研究目标。' },
-      { short: '证据', title: '构建证据链。', body: '研究、获取并保留证据，同时让证据与其支持的结论持续关联。' },
-      { short: '复核', title: '复核分析过程。', body: '暴露冲突、假设和仍然需要专业判断的事项。' },
-      { short: '报告', title: '交付专业报告。', body: '把整个研究过程转化为仍可追溯至证据的专业输出。' },
+    "formal": "交易验证 · 当前业务方向",
+    "description": "VeFin 面向基于证据的交易验证。已有研究与复核基础支持限定 PoC；交易对账与通过语音补齐证据仍是待接入、待验证的目标。",
+    "explore": "了解 VeFin 与能力边界",
+    "steps": [
+        {
+            "short": "范围",
+            "title": "明确验证任务。",
+            "body": "PoC 目标：先确定交易对象、业务记录、核验规则与授权范围。"
+        },
+        {
+            "short": "证据",
+            "title": "连接记录与证据。",
+            "body": "已实现基础：研究系统中的证据处理与受支持的确定性财务计算。交易记录接入属于 PoC 目标。"
+        },
+        {
+            "short": "复核",
+            "title": "核查差异并补齐材料。",
+            "body": "PoC 目标：对比记录、解释差异、请求补齐证据。VeFin Voice 是候选沟通模块，业务桥接尚未验收。"
+        },
+        {
+            "short": "结果",
+            "title": "交付有边界的验证结果。",
+            "body": "PoC 目标：保留核验结论、待处理项与追溯记录。机构系统接入与生产部署属于后续计划。"
+        }
     ],
-    workspace: {
-      research: '研究', evidence: '证据', review: '复核', report: '报告',
-      intentLabel: '研究意图', intentTitle: '分析 NVIDIA 基本面', focus: '重点', selected: '已选择',
-      intentRows: ['增长可持续性', '利润率展望', '估值', '完整基本面分析'],
-      evidenceLabel: '证据工作区', evidenceTitle: '23 条已关联证据',
-      evidenceBoxes: [['一手来源','收入增长仍然强劲。'],['复核事项','不同来源的利润率假设存在冲突。'],['情景分析','保留估值敏感性分析。'],['可追溯性','关键结论持续关联至证据。']],
-      reviewLabel: '专业复核', reviewTitle: '报告前需处理',
-      reviewBoxes: [['冲突','不同来源的利润率假设不一致。'],['人工复核','最终输出前确认处理方式。'],['证据','已关联 3 个一手来源。'],['状态','仍有 1 个事项未关闭。']],
-      reportLabel: '最终输出', reportTitle: 'NVDA 基本面研究报告', viewTitle: '研究观点', viewBody: '增长仍获得需求和产品周期证据支持，但利润率假设需要更严格的情景处理。', traceTitle: '证据', traceBody: '主要结论仍可追溯至来源材料和复核决策。',
-    },
-  },
+    "workspace": {
+        "research": "范围",
+        "evidence": "证据",
+        "review": "复核",
+        "report": "结果",
+        "intentLabel": "PoC 任务示意",
+        "intentTitle": "验证一笔交易记录",
+        "focus": "待确定",
+        "selected": "目标范围",
+        "intentRows": [
+            "交易对象与相关方",
+            "记录来源与授权",
+            "核验规则",
+            "证据与差异复核"
+        ],
+        "evidenceLabel": "目标证据工作区",
+        "evidenceTitle": "让记录具有上下文",
+        "evidenceBoxes": [
+            [
+                "业务记录",
+                "获准使用的交易记录"
+            ],
+            [
+                "参考依据",
+                "适用的核验规则"
+            ],
+            [
+                "材料缺口",
+                "显式保留待补证据"
+            ],
+            [
+                "可追溯性",
+                "来源与执行记录"
+            ]
+        ],
+        "reviewLabel": "目标复核流程",
+        "reviewTitle": "处理差异或保留待处理项",
+        "reviewBoxes": [
+            [
+                "对比",
+                "核查约定字段与规则"
+            ],
+            [
+                "沟通",
+                "在授权下请求补齐证据"
+            ],
+            [
+                "边界",
+                "业务桥接尚未验收"
+            ],
+            [
+                "状态",
+                "未解决事项保持开放"
+            ]
+        ],
+        "reportLabel": "输出示意",
+        "reportTitle": "验证结果与限制",
+        "viewTitle": "有边界的结论",
+        "viewBody": "依据所提供证据与约定规则记录发现，保留未知项和需要人工判断的事项。",
+        "traceTitle": "PoC 目标 · 非实时数据",
+        "traceBody": "此界面仅示意目标流程，不是产品实拍，也不是交易验证实测结果。"
+    }
+},
   atlas: {
     status: '独立产品 / 中国大陆', title: 'AtlasAnalyse', formal: 'AI 合规测试与评估平台',
     description: '围绕结构化测试、执行证据和可追溯评估构建，并为中国大陆部署和合规保持独立。', visit: '访问 atlasanalyse.cn',
@@ -163,20 +318,55 @@ const zh = {
     run: '评估运行', rows: [['TEST_CASE_001','安全映射'],['TEST_CASE_002','Oracle 校验'],['TEST_CASE_003','证据关联'],['TEST_CASE_004','回归测试']], pass: '通过',
   },
   voice: {
-    status: '预览 / Product · API', title: 'Cantonese Voice', formal: '面向真实粤语对话的 Voice AI',
-    description: '围绕上下文保持、知识依据与任务完成，构建连续的业务沟通体验。', explore: '查看 Voice', live: '实时对话', phrase: '「我想問返份保單嘅保障範圍……」',
-    points: [['上下文','跨轮次持续保持'],['知识','在需要时基于相关来源'],['完成','推动对话走向业务结果']],
-  },
+    "status": "VeFin 模块 · 限定验收",
+    "title": "VeFin Voice",
+    "formal": "VeFin 内的语音沟通模块",
+    "description": "连接语音、任务上下文、已登记知识与受控对话的持续状态沟通模块。已完成限定粤语咨询的本机验收；交易业务流程接入仍是目标。",
+    "explore": "了解 VeFin Voice",
+    "live": "对话示意",
+    "phrase": "「我想問點樣更改扣款戶口？」",
+    "points": [
+        [
+            "模块",
+            "VeFin 内的沟通能力"
+        ],
+        [
+            "证据",
+            "R8 本机限定验收"
+        ],
+        [
+            "边界",
+            "无公开语音试用或托管 API"
+        ]
+    ]
+},
   brand: {
     status: '产品化能力 / 预览中', title: 'Brand / IP', formal: '面向品牌与 IP 的互动式 AI 体验',
     description: '把品牌身份配置、调用并嵌入互动体验，而不是把每次合作都做成一次性项目。', explore: '查看能力',
     config: [['品牌 / IP','角色 A'],['体验','互动对话'],['交付','Use · API']], outputLabel: '生成体验', output: '让品牌身份成为可交互的产品界面。',
   },
   ways: {
-    eyebrow: '使用方式 / 向风行 Platform', title: '按适合你的方式使用产品。',
-    description: '产品体验优先。只有在确实有价值时，API 与 MCP 才作为额外交付方式出现。',
-    items: [['Product','按设计好的完整工作流直接使用。','查看产品'],['API','把精选能力集成进你自己的系统。','查看 API'],['MCP','让兼容 Agent 直接调用精选能力。','查看 MCP']],
-  },
+    "eyebrow": "了解方式 / 向风行",
+    "title": "了解产品与实际证据。",
+    "description": "阅读当前范围与源码文档，或联系我们安排有人协助的演示。",
+    "items": [
+        [
+            "产品",
+            "区分已实现基础、PoC 目标与当前限制。",
+            "了解产品"
+        ],
+        [
+            "API 文档",
+            "阅读实际后端契约。此处不提供托管公共 API 或 SDK。",
+            "查看 API 范围"
+        ],
+        [
+            "MCP 方向",
+            "尚未提供公开 MCP 接入，可先查看源码与集成边界。",
+            "查看集成范围"
+        ]
+    ]
+},
   work: {
     eyebrow: '证明 / Selected Work', title: '产品线之外的场景构建。',
     description: '面向活动、合作方或一次性问题的具体构建。当某项能力具备重复价值时，它才会升级进入 Products。',
@@ -192,12 +382,12 @@ const zh = {
   },
   common: { preparing: '准备中', back: '返回向风行', comingNext: '即将开放', previewOnly: '仅为预览', notLive: '尚未开放' },
   routes: {
-    vefin: { kicker:'产品 / 金融', title:'VeFin', formal:'可验证金融系统', copy:'从研究问题到证据、复核与报告的专业金融研究系统。', pending:'VeFin 完整产品页面正在接入。', pendingCopy:'该路径已为完整 VeFin 产品页保留，Product、API 与 MCP 将按成熟度逐步开放。', features:['研究工作区','证据图谱','专业报告'], meta:['Product','API','MCP'] },
-    voice: { kicker:'产品 / Voice AI', title:'Cantonese Voice', formal:'面向真实粤语对话的 Voice AI', copy:'围绕上下文保持、知识依据与任务完成构建连续业务沟通。', pending:'Cantonese Voice 产品页面正在接入。', pendingCopy:'完整产品体验与 API 将在产品界面成熟后于此开放。', features:['实时对话','上下文保持','业务工作流'], meta:['Product','API'] },
+
+
     brand: { kicker:'产品化能力', title:'Brand / IP', formal:'面向品牌与 IP 的互动式 AI 体验', copy:'将品牌身份配置、调用并嵌入互动体验，而不是把每次合作都做成一次性项目。', pending:'Brand / IP 产品化能力页面正在接入。', pendingCopy:'后续将在此开放完整配置、使用与 API 入口。', features:['配置','互动体验','Use / API'], meta:['Use','API'] },
-    developers: { kicker:'开发者', title:'Build with Xiangfengxing', formal:'面向精选能力的开发者入口', copy:'适合时直接使用完整产品，也可通过 API 与 MCP 接入精选能力。', pending:'开发者入口正在接入。', pendingCopy:'文档、能力发现和开发者工具将在接口稳定后开放。', features:['能力发现','API 与 MCP 预览','开发者文档'], meta:['API','MCP','文档'] },
-    api: { kicker:'开发者 / API', title:'API', formal:'将向风行精选能力集成到你的系统', copy:'面向开发者的调用层，用于把专业产品能力接入现有系统。', pending:'API 访问和文档正在接入。', pendingCopy:'上方代码仅为界面预览，当前尚未开放真实 Endpoint 与文档。', features:['能力 Endpoint','使用文档','集成指南'], meta:['预览','文档','集成'] },
-    mcp: { kicker:'开发者 / MCP', title:'MCP', formal:'让兼容 Agent 接入专业能力', copy:'用于向兼容 Agent 环境暴露向风行精选能力的连接层。', pending:'MCP 访问正在接入。', pendingCopy:'能力发现与 MCP 连接细节将在接口成熟后开放。', features:['发现','连接','调用与验证'], meta:['Discover','Connect','Call','Verify'] },
+
+
+
     work: { kicker:'Selected Work', title:'AI × Web3', formal:'面向特定活动与产品语境的构建', copy:'在 OKX 相关语境下展示的一次具体场景项目，完整案例后续将在此发布。', pending:'完整项目案例将在此发布。', pendingCopy:'案例准备完成后，将补充背景、方法、产品决策与结果。', features:['背景','方法','结果'], meta:['OKX 语境','2026','案例'] },
   },
   routeVisual: {
