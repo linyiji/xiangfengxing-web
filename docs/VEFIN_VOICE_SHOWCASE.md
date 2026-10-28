@@ -55,8 +55,19 @@ node scripts/qa-vefin-voice.cjs
 
 ## Preview and remaining work
 
+### Historical phase — before authorization recovery (2026-10-28)
+
+The following was recorded before hosted access was restored. Exact event times were not captured in this report (UNKNOWN). The original failure remains part of the record; these are no longer the latest verification results.
+
 The existing Vercel Git integration is expected to build the feature branch. Its exact commit, status and URL will be recorded in the PR and delivery receipt after pushing. Production deployment at the beginning of this task is `60b0d83aa12af73c339ead1fde7ea30da4ee904d`.
 
 Vercel connector access to team `team_4bwLyp7igADSBFwfCgfYFMLZ` returned 403 (team grant missing); the CLI has no usable access to that scope. Existing branch previews are Vercel-authentication protected. Hosted browser checks and public accessibility must not be marked passed without access. Local built-site verification is independent of this limitation.
 
-Remaining: review/merge the website PR in a later release, resolve the existing dependency advisories separately, investigate the independent Atlas 503, and obtain preview-team access if hosted verification is blocked. Voice PR merging and transaction/voice integration acceptance are separate work; neither is performed here.
+
+### Latest authorized hosted verification (2026-10-28)
+
+After the owner restored team authorization, the exact application commit `34026a97763e26ce9d77e9a772d87c182bad1f6f` produced Preview deployment `dpl_3cjCmyNRLuzNBLaJ65kASUCvcWuT`, **READY**. [GitHub CI](https://github.com/linyiji/xiangfengxing-web/actions/runs/40627069459) passed at that commit. Authorized hosted browser checks passed **32/32** route/device/language configurations with zero page errors; deployed JS/CSS/logo hashes matched the local build. The temporary alias-scoped access link was revoked after testing; normal preview login protection remains. This does not claim anonymous accessibility.
+
+See the [sanitized online receipt](qa/vefin-voice-20261028/ONLINE_VERIFICATION.md), [hosted results](qa/vefin-voice-20261028/hosted/browser-results.json) and [capture hashes](qa/vefin-voice-20261028/HOSTED_PROVENANCE.json). Local QA above and hosted QA remain separate. This documentation-only follow-up reuses those application-version checks; no new project voice or browser acceptance is implied. No production promotion or merge was performed.
+
+Remaining: review/merge the website PR in a later release, resolve the existing dependency advisories separately, investigate the independent Atlas 503, and review the preview using an authorized Vercel account. Preview-team authorization was restored for the recorded hosted check. Voice PR merging and transaction/voice integration acceptance are separate work; neither is performed here.
