@@ -88,7 +88,7 @@ export function TranslationHero() {
         <Link className="peek peek-main" to="/products/vefin"><span><strong>VeFin</strong><small>{copy.peeks.vefin}</small></span><span>→</span></Link>
         <a className="peek" href="https://atlasanalyse.cn" target="_blank" rel="noreferrer"><span><strong>AtlasAnalyse</strong><small>{copy.peeks.atlas}</small></span><span>↗</span></a>
         <div className="peek-more">
-          <Link className="mini" to="/products/voice"><span><strong>Cantonese Voice</strong><small>{copy.peeks.voice}</small></span><span>→</span></Link>
+          <Link className="mini" to="/products/voice"><span><strong>VeFin Voice</strong><small>{copy.peeks.voice}</small></span><span>→</span></Link>
           <Link className="mini" to="/products/brand-ip"><span><strong>Brand / IP</strong><small>{copy.peeks.brand}</small></span><span>→</span></Link>
         </div>
       </div>

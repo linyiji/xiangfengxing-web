@@ -8,7 +8,7 @@ type Stage = 'research' | 'evidence' | 'review' | 'report'
 const stageKeys: Stage[] = ['research','evidence','review','report']
 
 export function VeFinSection() {
-  const { copy } = useLocale()
+  const { copy, locale } = useLocale()
   const [active, setActive] = useState<Stage>('research')
   const stepRefs = useRef<Array<HTMLDivElement | null>>([])
 
@@ -44,7 +44,7 @@ export function VeFinSection() {
         </div>)}
       </div>
     </div>
-    <Reveal variant="ui" className="vefin-visual-wrap"><VeFinWorkspace active={active} /></Reveal>
+    <Reveal variant="ui" className="vefin-visual-wrap"><p className="evidence-label">{locale === 'en' ? 'Illustrative interface · Transaction-verification PoC target · Not measured evidence' : '界面示意 · 交易验证 PoC 目标 · 非实测证据'}</p><VeFinWorkspace active={active} /></Reveal>
   </div>
 }
 

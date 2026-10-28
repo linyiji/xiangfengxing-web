@@ -1,0 +1,64 @@
+{
+  "tested_commit": "34026a97763e26ce9d77e9a772d87c182bad1f6f",
+  "deployment": "dpl_3cjCmyNRLuzNBLaJ65kASUCvcWuT",
+  "captured_at": "2026-10-28T03:35:49.978Z",
+  "source": "Prior authorized hosted browser task, 2026-10-28; imported without new UI testing",
+  "publication": "documentation-only follow-up; original local QA preserved separately",
+  "files": [
+    {
+      "path": "hosted/browser-results.json",
+      "sha256": "6cde1a938ed51e5f42f371fd27dbc62b8e14436b1fbbc96f9cc5dc5e8a304d8c",
+      "bytes": 11892
+    },
+    {
+      "path": "hosted/desktop-en-vefin.png",
+      "sha256": "2469fcb6a95f55019a03753bacbe38126b5dcb9fdc42cc5f98ff7796cfec1d3d",
+      "bytes": 373714
+    },
+    {
+      "path": "hosted/desktop-en-voice.png",
+      "sha256": "9c91a46bbf3fb8aaf56c8c4b7af4d0a6433c0a60b25b1d0e6874f742f50782bf",
+      "bytes": 564513
+    },
+    {
+      "path": "hosted/desktop-zh-vefin-viewport.png",
+      "sha256": "b275455211695dcc5e78fc91b837bf8fc4ca7a7c2a4b71a9ff102a2304799603",
+      "bytes": 129390
+    },
+    {
+      "path": "hosted/desktop-zh-vefin.png",
+      "sha256": "276d19353bb1ddc3432768862f47c7c5dbc6b68029dbec13dc824cb4417da5bb",
+      "bytes": 359320
+    },
+    {
+      "path": "hosted/desktop-zh-voice.png",
+      "sha256": "e635fbde65b6cb120919baff5a6002728c3d7a3ba9fe367ca658d382fbba98d7",
+      "bytes": 537281
+    },
+    {
+      "path": "hosted/mobile-en-vefin.png",
+      "sha256": "50f09d5ffdfcd122b3f71d24d9d6c146068ec941ef17a2b6b6cfd32ee77b3bd1",
+      "bytes": 315363
+    },
+    {
+      "path": "hosted/mobile-en-voice.png",
+      "sha256": "33b270fecf8a6d068e74d01a7041fcbc04f3b07efce56340ff15466b52fa2dc3",
+      "bytes": 480178
+    },
+    {
+      "path": "hosted/mobile-zh-vefin.png",
+      "sha256": "11dcba30ec991c4014c1518b802278d4166667c63e9580b33a6dcc9d892c89cb",
+      "bytes": 308072
+    },
+    {
+      "path": "hosted/mobile-zh-voice-viewport.png",
+      "sha256": "4d77e190e31dfa32796a8134cb19e84529f492fce50780ce6d07b6ecd537b8a6",
+      "bytes": 61782
+    },
+    {
+      "path": "hosted/mobile-zh-voice.png",
+      "sha256": "6123a50fd33929a5a94e4d55a2f381d166bc5b397702e200c40affc9784341ab",
+      "bytes": 463229
+    }
+  ]
+}

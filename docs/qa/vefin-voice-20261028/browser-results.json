@@ -1,0 +1,423 @@
+{
+  "base": "http://127.0.0.1:4178",
+  "capturedAt": "2026-10-28T03:26:58.540Z",
+  "routes": [
+    {
+      "device": "desktop",
+      "locale": "en",
+      "route": "/",
+      "status": 200,
+      "title": "Xiangfengxing AI — Products for Real-World Work",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "route": "/products/vefin",
+      "status": 200,
+      "title": "VeFin — Verify the transaction. Keep the evidence. | Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/products/vefin",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "route": "/products/voice",
+      "status": 200,
+      "title": "VeFin Voice — A conversation with context, state and boundaries. | Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/products/voice",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "route": "/developers",
+      "status": 200,
+      "title": "Developer resources — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/developers",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "route": "/developers/api",
+      "status": 200,
+      "title": "API documentation & scope — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/developers/api",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "route": "/developers/mcp",
+      "status": 200,
+      "title": "MCP integration direction — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/developers/mcp",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "route": "/products/brand-ip",
+      "status": 200,
+      "title": "Brand / IP — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/products/brand-ip",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "en",
+      "route": "/work/web3",
+      "status": 200,
+      "title": "AI × Web3 — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/work/web3",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "route": "/",
+      "status": 200,
+      "title": "向风行 AI — 面向真实工作的 AI 产品",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "route": "/products/vefin",
+      "status": 200,
+      "title": "VeFin — 验证交易，保留依据。 | Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/products/vefin",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "route": "/products/voice",
+      "status": 200,
+      "title": "VeFin Voice — 让沟通保有上下文、状态与边界。 | Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/products/voice",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "route": "/developers",
+      "status": 200,
+      "title": "开发者资料 — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/developers",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "route": "/developers/api",
+      "status": 200,
+      "title": "API 文档与边界 — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/developers/api",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "route": "/developers/mcp",
+      "status": 200,
+      "title": "MCP 集成方向 — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/developers/mcp",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "route": "/products/brand-ip",
+      "status": 200,
+      "title": "Brand / IP — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/products/brand-ip",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "desktop",
+      "locale": "zh",
+      "route": "/work/web3",
+      "status": 200,
+      "title": "AI × Web3 — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/work/web3",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "route": "/",
+      "status": 200,
+      "title": "Xiangfengxing AI — Products for Real-World Work",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "route": "/products/vefin",
+      "status": 200,
+      "title": "VeFin — Verify the transaction. Keep the evidence. | Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/products/vefin",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "route": "/products/voice",
+      "status": 200,
+      "title": "VeFin Voice — A conversation with context, state and boundaries. | Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/products/voice",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "route": "/developers",
+      "status": 200,
+      "title": "Developer resources — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/developers",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "route": "/developers/api",
+      "status": 200,
+      "title": "API documentation & scope — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/developers/api",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "route": "/developers/mcp",
+      "status": 200,
+      "title": "MCP integration direction — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/developers/mcp",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "route": "/products/brand-ip",
+      "status": 200,
+      "title": "Brand / IP — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/products/brand-ip",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "en",
+      "route": "/work/web3",
+      "status": 200,
+      "title": "AI × Web3 — Xiangfengxing AI",
+      "lang": "en",
+      "canonical": "https://atlasanalyse.com/work/web3",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "route": "/",
+      "status": 200,
+      "title": "向风行 AI — 面向真实工作的 AI 产品",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "route": "/products/vefin",
+      "status": 200,
+      "title": "VeFin — 验证交易，保留依据。 | Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/products/vefin",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "route": "/products/voice",
+      "status": 200,
+      "title": "VeFin Voice — 让沟通保有上下文、状态与边界。 | Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/products/voice",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "route": "/developers",
+      "status": 200,
+      "title": "开发者资料 — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/developers",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "route": "/developers/api",
+      "status": 200,
+      "title": "API 文档与边界 — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/developers/api",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "route": "/developers/mcp",
+      "status": 200,
+      "title": "MCP 集成方向 — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/developers/mcp",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "route": "/products/brand-ip",
+      "status": 200,
+      "title": "Brand / IP — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/products/brand-ip",
+      "overflow": false,
+      "directRefresh": "PASS"
+    },
+    {
+      "device": "mobile",
+      "locale": "zh",
+      "route": "/work/web3",
+      "status": 200,
+      "title": "AI × Web3 — Xiangfengxing AI",
+      "lang": "zh-CN",
+      "canonical": "https://atlasanalyse.com/work/web3",
+      "overflow": false,
+      "directRefresh": "PASS"
+    }
+  ],
+  "interactions": [
+    "desktop/en: unknown route view PASS",
+    "desktop/en: product menu → Voice → toggle/reload → VeFin → Developers → API; mailto/Atlas targets PASS",
+    "desktop/zh: unknown route view PASS",
+    "desktop/zh: product menu → Voice → toggle/reload → VeFin → Developers → API; mailto/Atlas targets PASS",
+    "mobile/en: unknown route view PASS",
+    "mobile/en: product menu → Voice → toggle/reload → VeFin → Developers → API; mailto/Atlas targets PASS",
+    "mobile/zh: unknown route view PASS",
+    "mobile/zh: product menu → Voice → toggle/reload → VeFin → Developers → API; mailto/Atlas targets PASS"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/ea2002ca571c869c59936f64067ec0d7c7eaabd1/docs/product/PRODUCT_STATUS.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/ea2002ca571c869c59936f64067ec0d7c7eaabd1/docs/product/PRODUCT_WALKTHROUGH.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/20a5eaafdcb7dcfbe9d4c90059628cf5a9279ea5/docs/modules/voice/README.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/20a5eaafdcb7dcfbe9d4c90059628cf5a9279ea5/docs/modules/voice/PUBLICATION.json",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/20a5eaafdcb7dcfbe9d4c90059628cf5a9279ea5/src/application/voice_dialogue.py",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/20a5eaafdcb7dcfbe9d4c90059628cf5a9279ea5/src/application/voice_skill_plan.py",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/ea2002ca571c869c59936f64067ec0d7c7eaabd1/docs/09_API_CONTRACT_V1.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/ea2002ca571c869c59936f64067ec0d7c7eaabd1/docs/architecture/SYSTEM_ARCHITECTURE.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/ea2002ca571c869c59936f64067ec0d7c7eaabd1/docs/product/PRODUCT_STATUS.zh-CN.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/ea2002ca571c869c59936f64067ec0d7c7eaabd1/docs/product/PRODUCT_WALKTHROUGH.zh-CN.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/20a5eaafdcb7dcfbe9d4c90059628cf5a9279ea5/docs/modules/voice/README.zh-CN.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/ea2002ca571c869c59936f64067ec0d7c7eaabd1/docs/09_API_CONTRACT_V1.zh-CN.md",
+      "existsAtCommit": true
+    },
+    {
+      "url": "https://github.com/linyiji/verifiable-financial-ai-agent/blob/ea2002ca571c869c59936f64067ec0d7c7eaabd1/docs/architecture/SYSTEM_ARCHITECTURE.zh-CN.md",
+      "existsAtCommit": true
+    }
+  ],
+  "errors": []
+}
